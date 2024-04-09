@@ -4,6 +4,16 @@ This is a simple Python script for automatically unfollowing Instagram users who
 
 <img src="https://i.ibb.co/4KDZLkR/ray-so-export.png " />
 
+```shell
+
+  1. unfol who dont foll back
+  2. unfol masal
+  3. cek unfollow only
+   . log out
+
+ input : 
+
+```
 ## Prerequisites
 
 1. Python 3.x installed on your system.
@@ -15,7 +25,7 @@ This is a simple Python script for automatically unfollowing Instagram users who
 2. Open the terminal and navigate to the downloaded directory.
 3. Install the required dependencies using the following command: 
 ```shell
- pip install -r requirements.txt
+ pip install requests
 ```
 ## or
 ```shell
@@ -25,7 +35,7 @@ This is a simple Python script for automatically unfollowing Instagram users who
  rm -rf insta
  git clone https://github.com/zhukov-z/insta
  cd insta 
- pip install -r requirements.txt
+ pip install requests
  python main.py
 ```
 
